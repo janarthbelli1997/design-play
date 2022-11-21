@@ -1,0 +1,287 @@
+<div >
+<div class="first-picture">
+        <img src="../../assets/projects.jpg" style="width: 100%;">
+        <div style="margin-top: 5vh;margin-left: 5vh;" >
+            <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">>Flyer Eats</span>
+
+        </div>
+</div>
+
+<!-- code for web -->
+<div *ngIf="!isMobile" class="projects-content-web">
+
+    <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-6">
+            <div>
+                <h1>About</h1>
+                <p>Everyone loves food. The world cuisine always attracts the food lovers. So what say, if we have an app that allows to have your food delivered at your doorstep from selected world cuisine restaurants of your city.</p> 
+                <p>As a food delivery app, we maintained the uniqueness, fresh look and feel of the application. </p>
+                <p>This application is up and running in several countries like Singapore, Malaysia and India.</p>
+             </div>
+        </div>
+        <div class="col-3">
+
+        </div>
+    </div>
+ 
+    <div class="background-section">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8 project-pictures">
+                <div>
+                    <img src="../../assets/Grocery-2.jpg" style="width: 25%;margin-right: 6vw; ">
+                    <img src="../../assets/Grocery-3.jpg" style="width: 25%;margin-right: 6vw;">
+                    <img src="../../assets/Grocery-4.jpg" style="width: 25%;">
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+
+ 
+    <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-6">
+            <div >
+                <h1>Our Solution</h1>
+                <p>Easy to recogonise interface, top notch user experience with restraunt AI grouping,proper
+                    segeration of food categiores, and  different types of other  categories available like ready
+                    meat, groceries including frest fruits and vegetables.
+                </p>
+            </div>
+        </div>
+        <div class="col-3">
+            
+        </div>
+    </div>
+   
+    </div>
+    <div class="background-section">
+     <div class="row">
+         <div class="col-2">
+
+         </div>
+         <div class="col-8 project-pictures">
+            <img style="width: 100%;" src="../../assets/FlyerEats2.png">      
+         </div>
+         <div class="col-2"></div>
+     </div>
+     <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-6">
+            <div >
+                <h1>Solution that we provided </h1>
+                <p>The feature includes speed  check, statistics about your performance,chat,mailbox and many
+                    more. This dosen't end here,we are core part of Factory Fresh client team to enhance and 
+                    provide best user experience continuously.
+                </p>
+                <h1>Open Cart Feature</h1>
+                <p>This feature allows you to see the cart and add more items from the main page.While your 
+                   cart is open you can still shop for your favourite food and watch your cart simultaniously.
+                   Also make any changes in the cart, on the fly.</p>
+               </div> 
+        </div>
+        <div class="col-3">
+          
+        </div>
+    </div>
+   
+    </div>
+
+    <div class="background-last-section">
+    <div class="row project-pictures">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <img src="../../assets/FlyerEats31.png" style="width: 25%;margin-right: 6vw; ">
+        <img src="../../assets/FlyerEats32.png" style="width: 25%;margin-right: 6vw; ">
+        <img src="../../assets/FlyerEats33.png" style="width: 25%;">
+    </div>
+   <div class="col-2">
+
+   </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-6">
+            <div >
+                <h1>Process</h1>
+                <p>To start with the project, we followed definite process including information gathering,user 
+                    research,business analysis and competitive analysis.After we started creating information Architecture,data flows,user flows and basic wireframing. Thats how we gave  the shape to the project into live application.
+                </p>
+            </div>
+        </div>
+        <div class="col-3">
+            
+        </div>
+    </div>
+   
+    </div>
+    <div class="row" style="height: 10vh; text-align: center;">
+        <div class="col-6">
+           <span (click)="openFactoryFresh()"routerLink="flyerEats"> <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" >{{previous}}</p></span>
+            <!-- <a  href="factoryFresh">&lt;- previous project</a> -->
+        </div>
+        <div class="col-6">
+           <span (click)="openFactoryFresh()"><p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" routerLink="ciniChop">{{next}}</p></span>
+
+            <!-- <a href="ciniChop">-> next project</a> -->
+        </div>
+    </div>
+</div>
+
+<!-- code for mobile -->
+   <div *ngIf="isMobile">
+    <div>
+        <h1>About</h1>
+        <p>Everyone loves food. The world cuisine always attracts the food lovers. So what say, if we have an app that allows to have your food delivered at your doorstep from selected world cuisine restaurants of your city.</p> 
+        <p>As a food delivery app, we maintained the uniqueness, fresh look and feel of the application. </p>
+        <p>This application is up and running in several countries like Singapore, Malaysia and India.</p>
+     </div>
+     <div class="background-section">
+     <div class="carousal-section">
+        <!-- <mat-carousel timings="250ms ease-in" [autoplay]="true" [interval]=5000 color="accent" maxWidth="80% " [loop]="true"
+            [hideArrows]="false" [hideIndicators]="false" [useKeyboard]="true" [useMouseWheel]="false" orientation="ltr"
+            slideHeight="35vh" [maintainAspectRatio]="false">
+            <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slides; let i = index" [image]="slide.image"
+                overlayColor="#00000000" [hideOverlay]="true"></mat-carousel-slide>
+        </mat-carousel> -->
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 solution-one">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 solution-two">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4 solution-three">
+                        
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+            
+            </ng-template>
+           
+          </ngb-carousel>
+
+
+         
+     </div>
+
+     <div >
+        <h1>Our Solution</h1>
+        <p>Easy to recogonise interface, top notch user experience with restraunt AI grouping,proper
+            segeration of food categiores, and  different types of other  categories available like ready
+            meat, groceries including frest fruits and vegetables.
+        </p>
+    </div>
+    </div>
+    <div class="background-section">
+    <div  style="text-align: center;" >
+        <img style="width: 70%;" src="../../assets/FlyerEats2.png">        
+     </div>
+     <div >
+        <h1>Solution that we provided </h1>
+        <p>The feature includes speed  check, statistics about your performance,chat,mailbox and many
+            more. This dosen't end here,we are core part of Factory Fresh client team to enhance and 
+            provide best user experience continuously.
+        </p>
+        <h1>Open Cart Feature</h1>
+        <p>This feature allows you to see the cart and add more items from the main page.While your 
+           cart is open you can still shop for your favourite food and watch your cart simultaniously.
+           Also make any changes in the cart, on the fly.</p>
+    </div>
+</div>
+<div class="background-last-section">
+    <div class="carousal-section">
+       <!-- <mat-carousel timings="250ms ease-in" [autoplay]="true" [interval]=5000 color="accent" maxWidth="auto" [loop]="true"
+       [hideArrows]="false" [hideIndicators]="false" [useKeyboard]="true" [useMouseWheel]="false" orientation="ltr"
+       slideHeight="35vh" [maintainAspectRatio]="false">
+       <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slides; let i = index" [image]="slide.image"
+           overlayColor="#00000000" [hideOverlay]="true"></mat-carousel-slide>
+   </mat-carousel> -->
+   <ngb-carousel>
+    <ng-template ngbSlide>
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div class="col-4 process-one">
+                
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-4 process-two">
+               
+            </div>
+            <div class="col-1">
+
+            </div>
+        </div>            
+    </ng-template>
+
+    <ng-template ngbSlide>
+        <div class="row">
+            <div class="col-4">
+
+            </div>
+            <div class="col-4 process-three">
+                
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+
+    
+    </ng-template>
+   
+  </ngb-carousel>
+
+
+</div>
+<div >
+    <h1>Process</h1>
+    <p>To start with the project, we followed definite process including information gathering,user 
+        research,business analysis and competitive analysis.After we started creating information Architecture,data flows,user flows and basic wireframing. Thats how we gave  the shape to the project into live application.
+    </p>
+</div>
+</div>
+</div> 
+<app-footer></app-footer>
+
+
+</div>

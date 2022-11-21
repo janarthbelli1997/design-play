@@ -1,0 +1,15 @@
+.first-section{
+    height: 25vh;
+  
+}
+
+.first-section img{
+    height: 36px;
+}
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}

@@ -1,0 +1,117 @@
+<!-- code for mobile -->
+<div class="content-mobile" *ngIf="view">
+
+
+    <div style="margin-top: 5vh;">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="contact-details">
+        <div class="contact-image">
+            <img src="../../assets/mailCU.svg"> <span style="margin-left: 1vw;"> business@designplay.com</span>
+        </div>
+        <div class="contact-image">
+            <img src="../../assets/smartphoneCU.svg"><span style="margin-left: 1vw;">+91 9522220661</span>
+        </div>
+        <div class="contact-image">
+            <img src="../../assets/mapPinCU.svg"><span style="margin-left: 1vw;">Address</span>
+        </div>
+    </div>
+    <div class="details-mobile">
+        <h1 style="margin-bottom: 5vh;">
+            Drop us a note
+        </h1>
+        <form [formGroup]="detailsForm">
+            <div>
+                <p style="margin-bottom: 1vh;">Name</p>
+                <mat-form-field appearance="outline" class="name-content-mobile">
+                    <input  matInput formControlName="name" required>
+                </mat-form-field>
+            </div>
+         
+
+            <div>
+                <p style="margin-bottom: 1vh;">email</p>
+                <mat-form-field appearance="outline" class="name-content-mobile">
+                    <input  matInput formControlName="email" required>
+                </mat-form-field>
+            </div>
+          
+            <div>
+                <p style="margin-bottom: 1vh;">mobile</p>
+                <mat-form-field appearance="outline" class="name-content-mobile">
+                    <input  matInput formControlName="mobile">
+                </mat-form-field>
+            </div>
+           
+            <div>
+                <p style="margin-bottom: 1vh;">message</p>
+                <mat-form-field appearance="outline" class="name-content-mobile">
+                    <textarea matInput formControlName="message" ></textarea>
+                </mat-form-field>
+            </div>
+           
+            <button style="background-color: black; color: whitesmoke;margin-bottom: 5vh;" [disabled]="!detailsForm.valid"
+                (click)="sendForm()" mat-raised-button>Send</button>
+        </form>
+    </div>
+
+
+</div>
+<!-- code for web -->
+<div class="content" *ngIf="!view">
+
+    <mat-grid-list cols="2">
+        <mat-grid-tile class="first-tile">
+            <div>
+                <div>
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-image">
+                        <img src="../../assets/mailCU.svg"> <span style="margin-left: 1vw;">
+                            business@designplay.com</span>
+                    </div>
+                    <div class="contact-image">
+                        <img src="../../assets/smartphoneCU.svg"><span style="margin-left: 1vw;">+91 9522220661</span>
+                    </div>
+                    <div class="contact-image">
+                        <img src="../../assets/mapPinCU.svg"><span style="margin-left: 1vw;">Address</span>
+                    </div>
+                </div>
+                <img style="width: 100%;" src="../../assets/contactUs.svg">
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile class="second-tile">
+            <div class="details">
+                <h1>
+                    Drop us a note
+                </h1>
+                <form class="deatils-block" [formGroup]="detailsForm">
+                    <label>Name</label>
+                    <mat-form-field appearance="outline" class="name-new">
+                        <input matInput formControlName="name" required>
+                    </mat-form-field>
+
+
+                    <label>email</label>
+                    <mat-form-field appearance="outline" class="name-new">
+                        <input matInput formControlName="email" required>
+                    </mat-form-field>
+
+                    <label>mobile</label>
+                    <mat-form-field appearance="outline" class="name-new">
+                        <input matInput formControlName="mobile">
+                    </mat-form-field>
+
+                    <label>message</label>
+                    <mat-form-field appearance="outline" class="name-new">
+                        <textarea matInput formControlName="message"></textarea>
+                    </mat-form-field>
+                    <button style="background: black; color: whitesmoke;" [disabled]="!detailsForm.valid"
+                        (click)="sendForm()" mat-raised-button>Send</button>
+                </form>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
+
+</div>

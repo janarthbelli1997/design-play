@@ -1,0 +1,231 @@
+<div >
+    <div class="first-picture">
+            <img src="../../assets/cinichop.png" style="width: 100%;">
+            <div style="margin-top: 5vh;margin-left: 5vh;" >
+                <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">> Life Labs</span>
+    
+            </div>
+    </div>
+    
+    <!-- code for web -->
+    <div *ngIf="!isMobile" class="projects-content-web">
+    
+        <div class="row">
+            <div class="col-3">
+    
+            </div>
+            <div class="col-6">
+                <div>
+                    <h1>Cini Chop</h1>
+                   <p>This is the perfect app for Cinema lovers. All the movies, drama, cinamas are listed on the app with the easy access on one tap. 
+                   </p>                   
+                    <p>
+                        Intuitive navigation which allows users to search for the movies easily. Home page gives direct access to the user to search for their favorite movie and cinema on a selected date. Interface is available for mobile and desktop devices. 
+                    </p>
+                 </div>
+            </div>
+            <div class="col-3">
+    
+            </div>
+        </div>
+     
+        <div class="background-section">
+            <div class="row">
+                <div class="col-2">    
+                </div>
+                <div class="col-8 project-pictures">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="../../assets/cinichop01.png" style="width: 100%;">
+                        </div>
+                        <div class="col-4">
+                            <img src="../../assets/cinichop02.png" style="width: 100%;">
+                        </div>
+                        <div class="col-4">
+                            <img src="../../assets/cinichop03.png" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">    
+                </div>
+            </div>
+    
+     
+        <div class="row">
+            <div class="col-3">
+    
+            </div>
+            <div class="col-6">
+                <div >
+                    <h1>Our Solution</h1>
+                    <p>
+                        Simply just Chope. The core idea of having this application designed is to simplify all the things. Home page Search, Movies on one tap, Cinemas on one tap. Application identifies the location based upon the current user location or user can set the location by simply tap on the location button then application shows the relevant options to the user.
+                    </p>
+                </div>
+            </div>
+            <div class="col-3">
+                
+            </div>
+        </div>
+       
+        </div>
+        <div class="background-section" style="margin-bottom: 10vh;">
+            <div class="row">
+                <div class="col-1">    
+                </div>
+                <div class="col-10 project-pictures">
+                    <div>
+                        <img src="../../assets/ciniChop21.svg" style="width: 30%;float: left;">
+                        <img src="../../assets/ciniChop22.svg" style="width: 30%;margin-right: 2.5%;margin-left: 2.5%;">
+                        <img src="../../assets/ciniChop23.svg" style="width: 30%;float:right">
+                    </div>
+                </div>
+                <div class="col-1">    
+                </div>
+            </div>
+    
+     
+        <div class="row">
+            <div class="col-3">    
+            </div>
+            <div class="col-6">
+                <div >
+                    <h1>Highlight</h1>
+                    <p>
+                        The application is offered to support mobile and desktop devices. Dark and light mode theme is available for users to prefer. Application automatically sets the theme as per given setting in mobile phone.
+                    </p>
+                </div>
+            </div>
+            <div class="col-3">
+                
+            </div>
+        </div>
+       
+        </div>
+        
+    </div>
+    
+    <!-- code for mobile -->
+       <div *ngIf="isMobile">
+        <div>
+            <h1>Cini Chop</h1>
+            <p>This is the perfect app for Cinema lovers. All the movies, drama, cinamas are listed on the app with the easy access on one tap. 
+            </p>
+            <p>
+                Intuitive navigation which allows users to search for the movies easily. Home page gives direct access to the user to search for their favorite movie and cinema on a selected date. Interface is available for mobile and desktop devices. 
+            </p>
+         </div>
+         <div class="background-section">
+         <div class="carousal-section">
+            <ngb-carousel>
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-1">
+    
+                        </div>
+                        <div class="col-4 solution-one">
+                            
+                        </div>
+                        <div class="col-2">
+    
+                        </div>
+                        <div class="col-4 solution-two">
+                           
+                        </div>
+                        <div class="col-1">
+    
+                        </div>
+                    </div>            
+                </ng-template>
+    
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-4">
+    
+                        </div>
+                        <div class="col-4 solution-three">
+                            
+                        </div>
+                        <div class="col-4">
+    
+                        </div>
+                    </div>
+    
+                
+                </ng-template>
+               
+              </ngb-carousel>
+    
+    
+             
+         </div>
+    
+         <div >
+            <h1>Our UX solution</h1>
+            <p>Simply just Chope. The core idea of having this application designed is to simplify all the things.
+                 Home page Search, Movies on one tap, Cinemas on one tap.
+                  Application identifies the location based upon the current user location or user can set the location by simply tap on the location button then application shows the relevant options to the user.
+            </p>
+        </div>
+        </div>
+      
+    <div class="background-section">
+        <div class="carousal-section">
+          
+       <ngb-carousel>
+        <ng-template ngbSlide>
+            <div class="row">
+                <div class="col-1">
+    
+                </div>
+                <div class="col-10 process-one">
+                    
+                </div>               
+                <div class="col-1">
+    
+                </div>
+            </div>            
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="row">
+                <div class="col-1">
+    
+                </div>
+                <div class="col-10 process-two">
+                    
+                </div>               
+                <div class="col-1">
+    
+                </div>
+            </div>            
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="row">
+                <div class="col-1">
+    
+                </div>
+                <div class="col-10 process-three">
+                    
+                </div>
+                <div class="col-1">
+    
+                </div>
+            </div>
+    
+        
+        </ng-template>
+       
+      </ngb-carousel>
+    
+    
+    </div>
+    <div >
+        <h1>Highlight</h1>
+        <p>The application is offered to support mobile and desktop devices. Dark and light mode theme is available for users to prefer. Application automatically sets the theme as per given setting in mobile phone. </p>
+    </div>
+    </div>
+    </div> 
+    <app-footer></app-footer>  
+    
+    </div>
+    

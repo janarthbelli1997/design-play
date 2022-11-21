@@ -1,0 +1,138 @@
+.projects-content{
+   
+}
+.second-section{
+    background-image: linear-gradient(#ffffff 18%, #EAECFF 0%);
+    margin-top: 12vh;
+}
+.third-section{
+    background-image: linear-gradient(#ffffff 30%, #F1F1F1 0%);
+}
+
+/* mobile css */
+.carousal-section{
+    height: 50vh;
+}
+
+.solution-one{
+    background: url("../../assets/FactoryFrest01.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+
+.solution-two{
+    background: url("../../assets/FactoryFresh02.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+.solution-three{
+    background: url("../../assets/FactoryFresh03.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+
+.solution-four{
+    background: url("../../assets/FactoryFresh04.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+
+.features-one{
+    background: url("../../assets/FactoryFresh21.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+.features-two{
+    background: url("../../assets/FactoryFresh23.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+.features-three{
+    background: url("../../assets/FactoryFresh21.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+}
+.process-one{
+    background: url("../../assets/FactoryFresh31.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.process-two{
+    background: url("../../assets/FactoryFresh32.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.process-three{
+    background: url("../../assets/FactoryFresh33.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.process-four{
+    background: url("../../assets/FactoryFresh34.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.process-five{
+    background: url("../../assets/FactoryFresh35.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/* code for web */
+.written-content-first{
+    margin-top: 4vh;
+}
+
+.row{
+    width: 100%;
+}
+.third-section{
+    background-image: linear-gradient(#ffffff 33%, #EAECFF 0%);
+    margin-top: 12vh;
+}
+/* .second-section-web h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+} */
+
+.projects-content-web h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-top:8vh;
+}
+.projects-content-web p{
+    margin-bottom: 5vh;
+}
+.project-pictures{
+    text-align: center;
+}

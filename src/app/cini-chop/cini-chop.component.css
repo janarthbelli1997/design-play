@@ -1,0 +1,94 @@
+.projects-content{
+    /* margin-left: 10vw ;
+    margin-right: 10vw  */
+}
+.written-content{
+    /* margin-left:0vw; */
+    margin-bottom: 5vh;
+    margin-left: 25vw;
+    margin-right: 20vw;
+    padding-bottom: 8vh;
+}
+.background-section{
+    background-image: linear-gradient(#ffffff 30%,#FFEBEC 0%);
+}
+.background-last-section{
+    background-image: linear-gradient(#ffffff 15%,#F1F1F1 0%);
+}
+/* .project-pictures{
+    margin-left: 20vw;
+    width: 80vw;
+}
+.project-pictures img{
+    height: 55vh;
+} */
+
+.carousal-section{
+    height: 50vh;
+}
+
+.solution-one{
+    background: url("../../assets/ciniChop01.svg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.solution-two{
+    background: url("../../assets/ciniChop02.svg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.solution-three{
+    background: url("../../assets/ciniChop03.svg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.process-one{
+    background: url("../../assets/ciniChop21.svg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.process-two{
+    background: url("../../assets/ciniChop22.svg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.process-three{
+    background: url("../../assets/ciniChop23.svg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.projects-content-web h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-top:8vh;
+}
+.projects-content-web p{
+    margin-bottom: 5vh;
+}
+.row{
+    width: 100%;
+}
+.projects-content-web {
+    overflow: hidden;
+}
+.project-pictures {
+    margin-top: 12vh;
+    text-align: center;
+}

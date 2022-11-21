@@ -1,0 +1,254 @@
+<ngx-spinner></ngx-spinner>
+
+<div class="content">
+    <div class="first-picture">
+        <img src="../../assets/VitaminShopee.svg" style="width: 100%;">
+        <div *ngIf="!isMobile" style="margin-top: 5vh;margin-left: 5vh;" >
+            <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">>Vitamin Shopee</span>
+
+        </div>
+    </div>
+    <!-- code for web -->
+    <div *ngIf="!isMobile">
+    <div class="projects-content-web">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6 written-content-first">
+                <h1>Vitamin Shopee</h1>
+                <p>
+                    Do you feel if you get medicine and daily suppliments delivery at home with minimal effort then it would be so awesome? We believe then you are looking for the right solution here. It’s a simple solution with multiple delivery options from which you can easily get your medicines and suppliments on time without any delay. It’s a solution currently available in US and Canada region. 
+                </p>
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-10 project-pictures">
+                    <img src="../../assets/VitaminS01.png" style="width: 20%;margin-right: 5%;">
+                    <img src="../../assets/VitaminS02.png" style="width: 20%;margin-right: 5%;">
+                    <img src="../../assets/VitaminS03.png" style="width: 20%;margin-right: 5%;">
+                    <img src="../../assets/VitaminS04.png" style="width: 20%;">
+                </div>
+                <div class="col-1">
+
+                </div>
+            </div>
+         <div class="row">
+             <div class="col-3">
+
+             </div>
+             <div class="col-6">
+                <h1>Our Solution</h1>
+<p>
+    There are key features which make our UX solution most effective among the domain. Easy browsing through the products, Clear categorization of the products, Effective search engine, Delivery and pickup options as per customer’s need and store selection for quick delivery.
+</p>             </div>
+             <div class ="col-3">
+
+             </div>
+         </div>
+        </div> 
+        <div class="third-section">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <div class="project-pictures">
+                        <img src="../../assets/VitaminS11.png" style="width: 50%;">
+                        <img src="../../assets/VitaminS12.png" style="width: 50%;">
+                        <img src="../../assets/VitaminS13.png" style="width: 50%;">
+                        <img src="../../assets/VitaminS14.png" style="width: 50%;">
+                    </div>
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+           <div class="row">
+               <div class="col-3">
+               </div>
+               <div class="col-6">
+                <h1>Multiple delivery and pick up solutions</h1>
+                <p style="margin-bottom: 5vh;">
+                    Customer can easily choose between delivery and pick up. If the store is nearby or it’s on the way to home or office then they can order medicine at discounted prices and can pick up the parcel from the store hassle free. No time wastage finding the items in aisle, no long queue and no payment restrictions. Easily just search, select and order medicines and suppliments with multiple easy payment modes and just go to store to pick up your order. Don’t like to go out then order it to have a safe delivery wherever you want.                </p>
+                <h1>Cash Awards</h1>
+                <p style="margin-bottom: 5vh;">
+                    Every time you shop, you’ll get some cash awards which you can redeem during checkout to save some more on medicines and suppliments. No points or difficult calculations to make you confused. It’s direct cash which you can enjoy every time you shop.                </p>
+               </div>
+               <div class="col-3">
+
+               </div>
+           </div>
+        </div> 
+        <div class="process-section" >
+           
+            <div class="row ">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                    <div class="written-content">
+                        <h1 >Process</h1>
+                        <p>
+                            We analysed the market needs and user behavior and derived the outcomes to make our this product better. It’s not a product made within an organization without taking users into account. We tested it with the actual users to capture their emotions during interviews and provided the best solution that will fit with the users need. We followed the standard design process including user research, analysis, user flow, wireframe, mockups, prototype and then user testing to validate the solutions.                        </p>
+                     </div>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>           
+           </div> 
+    </div>
+    <div class="row" style="height: 10vh; text-align: center;">
+        <div class="col-6">
+           <span (click)="openFlyerEats()"routerLink="flyerEats"> <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" >{{previous}}</p></span>
+            <!-- <a  href="factoryFresh">&lt;- previous project</a> -->
+        </div>
+        <div class="col-6">
+            <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" routerLink="ciniChop">{{next}}</p>
+
+            <!-- <a href="ciniChop">-> next project</a> -->
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+<!-- code for mobile-->
+<div *ngIf="isMobile">
+    <div class="mobile-section">
+    <div style="margin-top: 3vh;margin-left: 3vh;" >
+        <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">> Sociars</span>
+
+    </div>
+    <div >
+        <h1>Vitamin Shopee</h1>
+        <p>Do you feel if you get medicine and daily suppliments delivery at home with minimal effort then it would be so awesome? We believe then you are looking for the right solution here. It’s a simple solution with multiple delivery options from which you can easily get your medicines and suppliments on time without any delay. It’s a solution currently available in US and Canada region. </p>
+     </div>
+     <div class="background-section">
+     <div class="carousal-section">
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 solution-one">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 solution-two">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 solution-three">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 solution-four">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+
+            
+            </ng-template>
+           
+          </ngb-carousel>
+
+
+         
+     </div>
+
+     <div >
+        <h1>Our Solution</h1>
+        <p style="padding-bottom: 5vh;">
+            There are key features which make our UX solution most effective among the domain. Easy browsing through the products, Clear categorization of the products, Effective search engine, Delivery and pickup options as per customer’s need and store selection for quick delivery.
+        </p>
+    </div>
+    </div>
+    <div class="background-section">
+        <div class="carousal-section">
+            <ngb-carousel>
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-1">
+    
+                        </div>
+                        <div class="col-4 knowled-one">
+                            
+                        </div>
+                        <div class="col-2">
+    
+                        </div>
+                        <div class="col-4 knowled-two">
+                           
+                        </div>
+                        <div class="col-1">
+    
+                        </div>
+                    </div>            
+                </ng-template>
+    
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-1">
+    
+                        </div>
+                        <div class="col-4 knowled-three">
+                            
+                        </div>
+                        <div class="col-2">
+    
+                        </div>
+                        <div class="col-4 knowled-four">
+                           
+                        </div>
+                        <div class="col-1">
+    
+                        </div>
+                    </div>            
+    
+                
+                </ng-template>
+                
+              </ngb-carousel>
+    
+    
+             
+         </div>
+     <div >
+        <h1>Multiple delivery and pick up solutions </h1>
+        <p>Customer can easily choose between delivery and pick up. If the store is nearby or it’s on the way to home or office then they can order medicine at discounted prices and can pick up the parcel from the store hassle free. No time wastage finding the items in aisle, no long queue and no payment restrictions. Easily just search, select and order medicines and suppliments with multiple easy payment modes and just go to store to pick up your order. Don’t like to go out then order it to have a safe delivery wherever you want.</p>
+        <h1>Cash Awards</h1>
+        <p style="padding-bottom: 5vh;">Every time you shop, you’ll get some cash awards which you can redeem during checkout to save some more on medicines and suppliments. No points or difficult calculations to make you confused. It’s direct cash which you can enjoy every time you shop.</p>
+    </div>
+</div>
+<div class="background-last-section">
+   
+<div >
+    <h1>Process</h1>
+    <p style="padding-bottom: 5vh;">We analysed the market needs and user behavior and derived the outcomes to make our this product better. It’s not a product made within an organization without taking users into account. We tested it with the actual users to capture their emotions during interviews and provided the best solution that will fit with the users need. We followed the standard design process including user research, analysis, user flow, wireframe, mockups, prototype and then user testing to validate the solutions.</p>
+</div>
+</div>
+</div> 
+</div>
+
+</div>

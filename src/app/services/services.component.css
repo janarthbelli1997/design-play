@@ -1,0 +1,147 @@
+/* .second-section{
+    margin-left: 5vh;
+    margin-right: 5vh;
+} */
+
+.column img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+    width: 60%;   
+}
+
+/* .col-img{
+  text-align: center;
+} */
+.row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+  }
+  
+ul{
+padding-inline-start: 17px;
+}
+
+.image-one{
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/researchsrevice.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 85%;
+}
+.image-two {
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/servicesTeaching.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 85%;
+}
+.image-three {
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/servicesPresentation.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 85%;
+}
+.image-four {
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/servicesMarketing.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 85%;
+}
+
+.mobile-section h1{
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 5vh;
+}
+.mobile-section{
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 5vh;
+}
+.image-one-mobile{
+  padding: 10px;
+  background-image:url(" ../../assets/researchsrevice.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  height: 40vh;
+}
+.image-two-mobile {
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/servicesTeaching.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  height: 40vh;
+}
+.image-three-mobile {
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/servicesPresentation.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  height: 40vh;
+}
+.image-four-mobile {
+  flex: 50%;
+  padding: 10px;
+  background-image:url(" ../../assets/servicesMarketing.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  height: 40vh;
+}
+
+/* css for web */
+
+.second-section h1{
+  color: #BFCBD8;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 12vh;
+}
+.second-section h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.second-section h3{
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 4vh;
+}
+.second-section ul{
+  margin-top: 6vh;
+}
+.second-section li{
+  font-size: 1.6rem;
+  margin-bottom: 4vh;
+}
+.second-section p{
+  margin-top: 2vh;
+  font-size: 1.1rem; 
+}
+.image-content{
+  margin-top: 10vh;
+  margin-bottom: 12vh;
+}
+.row{
+  width: 100%;
+}

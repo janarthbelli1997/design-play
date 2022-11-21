@@ -1,0 +1,50 @@
+.footer-section{
+    bottom: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+.content{
+ /* padding-left: 10vw; */
+}
+p{
+font-size: 14px;
+}
+a{
+    text-align: center;
+}
+
+
+
+.instagram{
+background-image: url("../../assets/instagram.png");
+background-position-x: center;
+background-repeat: no-repeat;
+
+}
+
+
+.linkedIn{
+background-image: url("../../assets/LinkedIn.svg");
+background-position-x: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 30%;
+width: 100%;
+background-color: black;
+border: none;
+}
+
+.instagram-mobile{
+    background-image: url("../../assets/instagram.png");
+    background-position-x: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+    
+    
+.linkedIn-mobile{
+    background-image: url("../../assets/LinkedIn.svg");
+    background-position-x: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}

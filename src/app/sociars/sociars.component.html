@@ -1,0 +1,350 @@
+<ngx-spinner></ngx-spinner>
+
+<div class="content">
+    <div   class="first-picture">
+        <img src="../../assets/sociars.svg" style="width: 100%;">
+        <div *ngIf="!isMobile" style="margin-top: 5vh;margin-left: 5vh;" >
+            <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">>Sociars</span>
+
+        </div>
+    </div>
+    <!-- code for web -->
+    <div *ngIf="!isMobile">
+    <div class="projects-content-web">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6 written-content-first">
+                <h1>Sociars</h1>
+                <p>
+                    This world is now remote world. We can connect to anybody in the world within seconds without even realizing that how easy it is, but that brings some drawbacks as well. Security is at stack because we don’t think about it. We are just adding one layer of security on top of everything you do at your home. It’s a security and social app which allows you so set security parameter for your home and you can easily look into whose coming and going from your home. Allow who can come, who can’t. Connect with people in your society. Share thoughts, and share knowledge with the top notch security features. </p>
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-10 project-pictures">
+                    <img src="../../assets/Sociars01.png" style="width: 22%;">
+                    <img src="../../assets/Sociars02.png" style="width: 22%;">
+                    <img src="../../assets/Sociars03.png" style="width: 22%;">
+                    <img src="../../assets/Sociars04.png" style="width: 22%;">
+                </div>
+                <div class="col-1">
+
+                </div>
+            </div>
+         <div class="row">
+             <div class="col-3">
+
+             </div>
+             <div class="col-6">
+                <h1>Our Solution</h1>
+               <p>You can use this application to ensure the security and to connect with society members and people in their society. App sends out a notification to the house member which security guard will generate while someone is waiting at the main gate to come to your house. You can also generate the invite prior to your guest reaching at your home so they would not wait at the main gate. Also you can connect with people in your society to share thoughts, knowledge and connect with people.</p>
+             </div>
+             <div class ="col-3">
+
+             </div>
+         </div>
+        </div> 
+        <div class="third-section">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <div class="project-pictures">
+                        <img src="../../assets/Sociars11.png" style="width: 20%;">
+                        <img src="../../assets/Sociars12.png" style="width: 20%;">
+                        <img src="../../assets/Sociars13.png" style="width: 20%;">
+                        <img src="../../assets/Sociars14.png" style="width: 20%;">
+                        <img src="../../assets/Sociars15.png" style="width: 20%;">
+                    </div>
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+           <div class="row">
+               <div class="col-3">
+               </div>
+               <div class="col-6">
+                <h1>Share Knowledge and Content</h1>
+                <p style="margin-bottom: 5vh;">
+                    You can share knowledge with the help of Sociars. Application allows them to promote their skills on the platform and anyone can reach out to you from the society to learn. You can share the day to day content as well which society members can see and get to know more about you.
+                </p>
+                <h1>Secure your house</h1>
+                <p style="margin-bottom: 5vh;">
+                    Security is principle feature of Sociars. You will know if someone is coming to house and when they are leaving. House keepers, delivery boys/girls, guests, and so on. You’ll know before they reach to your house and once they go you’ll be notified.
+                </p>
+               </div>
+               <div class="col-3">
+
+               </div>
+           </div>
+        </div> 
+        <div class="third-section">
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-10">
+                    <div class="project-pictures">
+                        <img src="../../assets/Sociars21.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/Sociars22.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/Sociars23.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/Sociars24.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/Sociars25.png" style="width: 15%;margin-right: 5%;">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                    <div class="written-content">
+                        <h1 >Process</h1>
+                        <p>
+                            It’s a one of the product which went into high research and design thinking. Starting with the competitor, market, user analysis and research then product flow. Information architecture, feature structure, user flow, persona mapping, mind mapping, and followed by wireframes, prototyping and testing. 
+                        </p>
+                     </div>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>           
+           </div> 
+    </div>
+    <div class="row" style="height: 10vh; text-align: center;">
+        <div class="col-6">
+           <span (click)="openFlyerEats()"routerLink="flyerEats"> <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" >{{previous}}</p></span>
+            <!-- <a  href="factoryFresh">&lt;- previous project</a> -->
+        </div>
+        <div class="col-6">
+            <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" routerLink="ciniChop">{{next}}</p>
+
+            <!-- <a href="ciniChop">-> next project</a> -->
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+<!-- code for mobile-->
+<div *ngIf="isMobile">
+    <div class="mobile-section">
+    <div style="margin-top: 3vh;margin-left: 3vh;" >
+        <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">> Sociars</span>
+
+    </div>
+    <div >
+        <h1>Sociars</h1>
+        <p>This world is now remote world. We can connect to anybody in the world within seconds without even realizing that how easy it is, but that brings some drawbacks as well. Security is at stack because we don’t think about it. We are just adding one layer of security on top of everything you do at your home. It’s a security and social app which allows you so set security parameter for your home and you can easily look into whose coming and going from your home. Allow who can come, who can’t. Connect with people in your society. Share thoughts, and share knowledge with the top notch security features.</p>
+     </div>
+     <div class="background-section">
+     <div class="carousal-section">
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 solution-one">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 solution-two">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 solution-three">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 solution-four">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+
+            
+            </ng-template>
+           
+          </ngb-carousel>
+
+
+         
+     </div>
+
+     <div >
+        <h1>Our Solution</h1>
+        <p style="padding-bottom: 5vh;">You can use this application to ensure the security and to connect with society members and people in their society. App sends out a notification to the house member which security guard will generate while someone is waiting at the main gate to come to your house. You can also generate the invite prior to your guest reaching at your home so they would not wait at the main gate. Also you can connect with people in your society to share thoughts, knowledge and connect with people.
+        </p>
+    </div>
+    </div>
+    <div class="background-section">
+        <div class="carousal-section">
+            <ngb-carousel>
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-1">
+    
+                        </div>
+                        <div class="col-4 knowled-one">
+                            
+                        </div>
+                        <div class="col-2">
+    
+                        </div>
+                        <div class="col-4 knowled-two">
+                           
+                        </div>
+                        <div class="col-1">
+    
+                        </div>
+                    </div>            
+                </ng-template>
+    
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-1">
+    
+                        </div>
+                        <div class="col-4 knowled-three">
+                            
+                        </div>
+                        <div class="col-2">
+    
+                        </div>
+                        <div class="col-4 knowled-four">
+                           
+                        </div>
+                        <div class="col-1">
+    
+                        </div>
+                    </div>            
+    
+                
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-4">
+    
+                        </div>
+                        <div class="col-4 knowled-five">
+                            
+                        </div>
+                        <div class="col-4">
+    
+                        </div>
+                    </div>
+    
+                
+                </ng-template>
+               
+              </ngb-carousel>
+    
+    
+             
+         </div>
+     <div >
+        <h1>Share Knowledge and Content </h1>
+        <p>You can share knowledge with the help of Sociars. Application allows them to promote their skills on the platform and anyone can reach out to you from the society to learn. You can share the day to day content as well which society members can see and get to know more about you.
+        </p>
+        <h1>Secure your house</h1>
+        <p style="padding-bottom: 5vh;">Security is principle feature of Sociars. You will know if someone is coming to house and when they are leaving. House keepers, delivery boys/girls, guests, and so on. You’ll know before they reach to your house and once they go you’ll be notified.</p>
+    </div>
+</div>
+<div class="background-last-section">
+    <div class="carousal-section">
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 process-one">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 process-two">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-4 process-three">
+                        
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-4 process-four">
+                       
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                </div>            
+
+            
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4 process-five">
+                        
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+            
+            </ng-template>
+           
+          </ngb-carousel>
+
+
+         
+     </div>
+<div >
+    <h1>Process</h1>
+    <p style="padding-bottom: 5vh;">To start with the project, we followed definite process including information gathering,user 
+        research,business analysis and competitive analysis.After we started creating information Architecture,data flows,user flows and basic wireframing. Thats how we gave  the shape to the project into live application.
+    </p>
+</div>
+</div>
+</div> 
+</div>
+<app-footer></app-footer>
+
+</div>

@@ -1,0 +1,421 @@
+<div class="home-content" *ngIf="!isMobile">
+    <div class="first-section">
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div class="col-6 text-content">
+                <p style="font-size: 2rem;font-weight: 900;">
+                    Hi, Your search ends here.
+                </p>
+                <p style="font-weight: 500;font-size: 1.5rem;margin-top: 3vh;">
+                    A simple one stop solution for all your design needs. 
+                </p>
+                <p style="font-size: 1rem;color: #777777;margin-top: 3vh;">
+                    We are here to help you in your business, we connect with you as design and development parter for your business. Even for small requirement to bigger problems, we’ll stand for you, we’ll design for you and develop for you.
+                </p>
+                <button class="talk-to-us" mat-button (click)="talkToUs()">Talk to us</button>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4  first-image">
+
+            </div>
+        </div>
+    </div>
+      
+    <div class="second-section">
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div  class="col-10">
+                <h1>We Offer</h1>
+
+                <mat-grid-list cols="4" >
+                <mat-grid-tile class="we-offer-hover">
+                    <div  class="we-offer">
+                    <div (click)="toService()">
+                        <img class="we-offer-img" src="../../assets/homeUXR.svg">
+                        <h3 >UX Research</h3>
+                    </div>
+                </div>
+                </mat-grid-tile>
+                <mat-grid-tile class="we-offer-hover" >
+                    <div class ="we-offer">
+                        <div (click)="toService()">
+                        <img  class="we-offer-img" src="../../assets/homeUXUI.png">
+                        <h3 > UX-Ui Design</h3>
+                    </div>
+                    </div>
+                </mat-grid-tile>
+                <mat-grid-tile  class="we-offer-hover">
+                    <div class ="we-offer">
+                        <div (click)="toService()">
+                        <img class="we-offer-img" src="../../assets/homeUID.png">
+                        <h3 >UI Development</h3>
+                    </div>
+                </div>
+                </mat-grid-tile>
+                <mat-grid-tile class="we-offer-hover" >
+
+                    <div class ="we-offer">
+                        <div (click)="toService()">
+                        <img class="we-offer-img" src="../../assets/homeDM.png">
+                        <h3 >Digital Marketing</h3>
+                    </div>
+                </div>
+                </mat-grid-tile>
+                </mat-grid-list>
+            </div>
+        </div>
+    </div>
+     
+    
+    <div class="third-section">
+        <div class="text-section">
+        <h1>Design - Development - Digital Marketing</h1>
+        <p style="margin-top: 3vh;color: #828282;">User experience and User interface are the building blocks for the successful product, But we don’t stop here. We provide you end to end services, starts from design and ends with digital marketing for your product.</p>
+        </div>
+        <div class="vedio-section">
+            <video style="width: 50vw;height: auto;"  controls autoplay>
+                <source src="../../assets/DSCF6574.mov" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+    <div class="fourth-section">
+        <h1 style="margin-left: 8.3%;margin-bottom: 6vh;">Recent projects</h1>
+        <mat-grid-list cols="3">
+            <mat-grid-tile (click)="HomeFF()">
+                <img  class ="image-section" (click)="HomeFF()" src="../../assets/HomeFF.png">
+            </mat-grid-tile>
+            <mat-grid-tile (click)="HomeFF()">
+                <img class ="image-section" (click)="HomeFE()" src="../../assets/HomeFE.png">
+            </mat-grid-tile>
+            <mat-grid-tile (click)="HomeFF()">
+                <img class ="image-section" (click)="HomeSoc()" src="../../assets/HomeSoc.png">
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <div class="fifth-section">
+        <h1  style="margin-left: 8.3%;margin-bottom: 6vh;">Process</h1>
+        <mat-grid-list class="odd-grid" cols="4">
+            <mat-grid-tile style="justify-content: left;">
+                <div>
+                    <h3 style="color: #6C63FF;">1. Research</h3>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeBusiness.png">
+                    <h3>Business</h3>
+                    <p>Understand the goal of the project.</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeCompetitors.png">
+                    <h3>Competitors</h3>
+                    <p>Analyse the market and competitors.</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeUsers.png">
+                    <h3>Users</h3>
+                    <p>Understand the users and their habits</p>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+       
+        <mat-grid-list class="even-grid" cols="4">
+            <mat-grid-tile>
+                <div>
+                    <h3 style="color: #6C63FF;">2. Define</h3>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeProblem.png">
+                    <h3>Problem</h3>
+                    <p>Define the problem using 
+                        research material</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke;width: 80%;">
+                    <img src="../../assets/homeInfo.png">
+                    <h3>Information Arch.</h3>
+                    <p>IA helps to define the flow and 
+                        reach to an outcome</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeuserjourney.png">
+                    <h3>User Journey Maps</h3>
+                    <p>Create flows keeping users in 
+                        mind and map it using user personas</p>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+        <mat-grid-list class="odd-grid" cols="4">
+            <mat-grid-tile>
+                <div>
+                    <h3 style="color: #6C63FF;">3. Design</h3>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeWireframes.png">
+                    <h3>Wireframes</h3>
+                    <p>Create sketches to 
+                        show initial functionality</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeVisualDesign.png">
+                    <h3>Visual Design</h3>
+                    <p>Introduce colors and visual 
+                        elements to reflect emotion</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeUsablity.png">
+                    <h3>Usability Testing</h3>
+                    <p>Test the interactive prototype 
+                        with users to get early feedback</p>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+        <mat-grid-list class="even-grid" cols="4">
+            <mat-grid-tile>
+                <div>
+                    <h3 style="color: #6C63FF;">4. Implement</h3>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeFrontEnd.png">
+                    <h3>Front end</h3>
+                    <p>Developing frontend with
+                        high quality code</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/homeApi.png">
+                    <h3>API Integration</h3>
+                    <p>Front end to back end integration 
+                        for better performance</p>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <div style="color:whitesmoke">
+                    <img src="../../assets/hometesting.png">
+                    <h3>Testing</h3>
+                    <p>Cross platform testing to ensure 
+                        best experience everywhere</p>
+                </div>
+            </mat-grid-tile>
+        </mat-grid-list>
+     
+    </div>
+    <div class="sixth-section">
+        <h1 style="margin-left: 8.3%;margin-bottom: 8vh;">Our Clients</h1>
+        <mat-grid-list cols="5" gutterSize="10px">
+            <mat-grid-tile class="company-tile">
+                <img style="height: 25%;"src="../../assets/homeFlyer.png">
+            </mat-grid-tile>
+            <mat-grid-tile class="company-tile">
+                <img style="width: 50%;" src="../../assets/homeGreenwing.png">              
+            </mat-grid-tile>
+            <mat-grid-tile class="company-tile">
+                <img style="width: 50%;"src="../../assets/homeBeene.png">
+            </mat-grid-tile>
+            <mat-grid-tile class="company-tile">
+                <img style="width: 50%;"src="../../assets/homeSerinity.png">
+            </mat-grid-tile>
+            <mat-grid-tile class="company-tile">
+                <img style="width:50%;"src="../../assets/homeMatchbox.png">
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+    <app-footer></app-footer>
+</div>
+<!-- code for mobile -->
+<div class="home-content-mobile" *ngIf="isMobile">
+    <div class="first-section-mobile">
+        <div class="first-content">
+            <p style="font-size: 24px;font-weight: bold;">
+                Hi, Your search ends here.
+            </p>
+            <p style="font-size: 18px;font-weight: 500;color: #333333;margin-top: 2vh;margin-bottom: 0%;">
+                A simple one stop solution for all your design needs. 
+            </p>
+            <p style="font-size: 16px;color: #777777;margin-top: 1vh;">
+                We are here to help you in your business, we connect with you as design and development parter for your business. Even for small requirement to bigger problems, we’ll stand for you, we’ll design for you and develop for you.
+            </p>
+            <button class="talk-to-us-mobile" mat-button >Talk to us</button>
+        </div>
+    </div>
+    <div class="second-section-mobile">
+        <h1 style="font-size: 30px; font-weight: bold;">We Offer</h1>
+        <div style="margin-top: 4vh;">
+        <div class ="we-offer-mobile">
+            <img class="we-offer-img-mobile" src="../../assets/homeUXR.svg">
+            <h3>UX Research</h3>
+        </div>
+        </div>
+        <div class ="we-offer-mobile">
+            <img  class="we-offer-img-mobile" src="../../assets/homeUXUI.png">
+            <h3>UX-Ui Design</h3>
+        </div>
+        <div class ="we-offer-mobile">
+            <img class="we-offer-img-mobile" src="../../assets/homeUID.png">
+            <h3>UI Development</h3>
+        </div>
+        <div class ="we-offer-mobile">
+            <img class="we-offer-img-mobile" src="../../assets/homeDM.png">
+            <h3>Digital Marketing</h3>
+        </div>
+
+
+      
+    </div>
+    <div class=" third-section-mobile">
+        <div style="background: #111111;
+        height: 100%;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        padding-left: 5vh;
+        padding-right: 5vh;">
+        
+        <h2 style="color:#D7D7D7; font-size: 24px;font-weight: bold;line-height: 150%;">Design - Development - Digital Marketing</h2>
+        <p style="color: #828282;"> User experience and User interface are the building blocks for the successful product, But we don’t stop here. We provide you end to end services, starts from design and ends with digital marketing for your product.</p>
+        </div>
+        <div class="vedio-section" style="text-align: center ;">
+            <video style="width: 100vw;height: auto;"  controls autoplay>
+                <source src="../../assets/DSCF6574.mov" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+    <div class="fourth-section-mobile">
+        <h1 h1 style="font-size: 30px; font-weight: bold;margin-left: 5vw;
+        margin-right: 5vw;margin-top: 8vh;margin-bottom: 5vh;">Recent projects</h1>
+        <div class="carousal-section">
+            <ngb-carousel 
+            [showNavigationArrows]="true" 
+            [showNavigationIndicators]="true"
+            [keyboard]="true"
+            [pauseOnHover]="true"
+            [wrap]="true"
+             >
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-12 project-one">               
+                        </div>           
+                    </div>       
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="row">
+                        <div class="col-12 project-two">               
+                        </div>           
+                    </div>       
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="row ">
+                        <div class="col-12  project-three">               
+                        </div>           
+                    </div>       
+                </ng-template>
+               
+            </ngb-carousel>
+        </div>
+  
+
+    </div>
+    <div class="fifth-section-mobile" >
+        <h1>Process</h1>
+     
+
+        <div class="expansion"  (click)="openBottomSheet(1)" >
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-8 ">
+                    <h3 style="margin-top: 2vh;font-size: 20px;font-weight: bold;">1. Research</h3>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <mat-icon style="margin-top: 2vh;">keyboard_arrow_right</mat-icon>
+                </div>
+            </div>
+            
+                               
+        </div>
+        <div class="expansion" (click)="openBottomSheet(2)">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-8 ">
+                    <h3 style="margin-top: 2vh;font-size: 20px;font-weight: bold;">2. Define</h3>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <mat-icon style="margin-top: 2vh;">keyboard_arrow_right</mat-icon>
+                </div>
+            </div>            
+        </div>
+        <div class="expansion" (click)="openBottomSheet(3)">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-8 ">
+                    <h3 style="margin-top: 2vh;font-size: 20px;font-weight: bold;">3. Expansion</h3>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <mat-icon style="margin-top: 2vh;">keyboard_arrow_right</mat-icon>
+                </div>
+            </div>        
+        </div>
+        <div class="expansion"  (click)="openBottomSheet(4)">
+            
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-8 process-name">
+                    <h3 style="margin-top: 2vh;font-size: 20px;font-weight: bold;">4. Implement</h3>
+                </div>
+                <div class="col-3" style="text-align: center;">
+                    <mat-icon style="margin-top: 2vh;">keyboard_arrow_right</mat-icon>
+                </div>
+            </div>                       
+        </div>
+       
+        
+  
+    </div>
+    <div class="sixth-section-mobile">
+        <h1>Our Clients</h1>
+       <div class="row final-section">
+           <div class="col-6 flyerEats">            
+           </div>
+           <div class="col-6 greenWig ">            
+        </div>
+       </div>
+       <div class="row  final-section">
+        <div class="col-6  beane">         
+        </div>
+        <div class="col-6 serenity">        
+     </div>
+    </div>
+    <div class="row  final-section">
+        <div class="col-6 matchBox">         
+        </div>       
+    </div>
+    </div>
+    <app-footer></app-footer>
+</div>

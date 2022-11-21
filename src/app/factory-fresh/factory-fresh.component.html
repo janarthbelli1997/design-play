@@ -1,0 +1,345 @@
+<ngx-spinner></ngx-spinner>
+
+<div class="content">
+    <div class="first-picture">
+        <img src="../../assets/FactoryFresh.png" style="width: 100%;">
+        <div style="margin-top: 5vh;margin-left: 5vh;" >
+            <a style="margin-top: 5vh;color: black;" routerLink="/projects">All Projects</a><span style="text-decoration: none;">>Facotry Fresh</span>
+
+        </div>
+    </div>
+    <!-- code for web -->
+    <div *ngIf="!isMobile">
+    <div class="projects-content-web">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6 written-content-first">
+                <h1>About</h1>
+                <p>
+                    Do you enjoy shopping? Yes, Indeed, everyone enjoys shopping but what if you shop and also earn from it.
+    
+    So this is a product which allows you shop for others and you earn while you shop and deliver goods to them. 
+    
+    Isn’t it cool. Yes, but to make this possible we created intuitive, smart and engaging system Factory Fresh mobile application for our client.
+                </p>
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+        <div class="second-section">
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-10 project-pictures">
+                    <img src="../../assets/FactoryFrest01.png" style="width: 22%;">
+                    <img src="../../assets/FactoryFresh02.png" style="width: 22%;">
+                    <img src="../../assets/FactoryFresh03.png" style="width: 22%;">
+                    <img src="../../assets/FactoryFresh04.png" style="width: 22%;">
+                </div>
+                <div class="col-1">
+
+                </div>
+            </div>
+         <div class="row">
+             <div class="col-3">
+
+             </div>
+             <div class="col-6">
+                <h1>Our Solution</h1>
+                <p>
+                    In our creamy solution, we provided the map as a home page where shopper will get area wise available orders and it’s his choice to go the area wherever he wants to go and select orders to shop and deliver goods.
+                </p>
+                <h1>Help feature</h1>
+                <p>
+                    What if shopper doesn’t know what’s on home page? Yeah; so we give help upfront. Quickly access the help and understand the concept.            </p>
+            
+             </div>
+             <div class ="col-3">
+
+             </div>
+         </div>
+        </div> 
+        <div class="third-section">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <div class="project-pictures">
+                        <img src="../../assets/FactoryFresh21.png" style="width: 25%;margin-right: 5%;margin-left: 5vw;">
+                        <img src="../../assets/FactoryFresh22.png" style="width: 25%;margin-right: 5%;">
+                        <img src="../../assets/FactoryFresh23.png" style="width: 25%;margin-right: 5%;">
+                    </div>
+                </div>
+                <div class="col-1">
+                </div>
+            </div>
+           <div class="row">
+               <div class="col-3">
+               </div>
+               <div class="col-6">
+                <h1>More features</h1>
+                <p style="margin-bottom: 5vh;">
+                 The features include speed check, statistics about your performance, chat, mailbox and many more. This doesn’t end here, we are core part of Factory Fresh client team to enhance and provide best user experience continuously.    
+                </p>
+               </div>
+               <div class="col-3">
+
+               </div>
+           </div>
+        </div> 
+        <div class="third-section">
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-10">
+                    <div class="project-pictures">
+                        <img src="../../assets/FactoryFresh31.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/FactoryFresh32.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/FactoryFresh33.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/FactoryFresh34.png" style="width: 15%;margin-right: 5%;">
+                        <img src="../../assets/FactoryFresh35.png" style="width: 15%;margin-right: 5%;">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                    <div class="written-content">
+                        <h1 >Process</h1>
+                        <p>
+                         To start with the project, we followed definite process including information gathering, user research, business analysis, and competitive analysis. After that we started crearting information architecture, data flows, user flows and basic wireframing. That’s how we gave the shape to the project into live application.
+                        </p>
+                     </div>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>           
+           </div> 
+    </div>
+    <div class="row" style="height: 10vh; text-align: center;">
+        <div class="col-6">
+           <span (click)="openFlyerEats()"routerLink="flyerEats"> <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" >{{previous}}</p></span>
+            <!-- <a  href="factoryFresh">&lt;- previous project</a> -->
+        </div>
+        <div class="col-6">
+            <p style="color: #6C63FF;margin-top: 3vh;font-weight: bold;" routerLink="ciniChop">{{next}}</p>
+
+            <!-- <a href="ciniChop">-> next project</a> -->
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+<!-- code for mobile-->
+<div *ngIf="isMobile">
+    <div class="projects-content">
+        <div class="written-content">
+            <h1>About</h1>
+            <p>
+                Do you enjoy shopping? Yes, Indeed, everyone enjoys shopping but what if you shop and also earn from it.
+So this is a product which allows you shop for others and you earn while you shop and deliver goods to them. 
+Isn’t it cool. Yes, but to make this possible we created intuitive, smart and engaging system Factory Fresh mobile application for our client.
+            </p>
+         </div>
+         <div class="background-section">
+            <div class="carousal-section">
+                <ngb-carousel>
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-1">
+        
+                            </div>
+                            <div class="col-4 solution-one">
+                            </div>
+                            <div class="col-2">
+        
+                            </div>
+                            <div class="col-4 solution-two">
+                               
+                            </div>
+                            <div class="col-1">
+        
+                            </div>
+                        </div>            
+                    </ng-template>
+        
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-1">
+        
+                            </div>
+                            <div class="col-4 solution-three">
+                                
+                            </div>
+                            <div class="col-2">
+        
+                            </div>
+                            <div class="col-4 solution-four">
+                                
+                            </div>
+                            <div class="col-4">
+
+                            </div>
+                        </div>
+        
+                    
+                    </ng-template>
+                   
+                  </ngb-carousel>
+            </div>
+ 
+       
+         <div class="written-content">
+            <h1>Our Solution</h1>
+            <p>
+                In our creamy solution, we provided the map as a home page where shopper will get area wise available orders and it’s his choice to go the area wherever he wants to go and select orders to shop and deliver goods.
+            </p>
+            <h1>Help feature</h1>
+            <p>
+                What if shopper doesn’t know what’s on home page? Yeah; so we give help upfront. Quickly access the help and understand the concept.            </p>
+         </div>
+        </div> 
+        <div class="second-section">
+            <div class="carousal-section">
+                <ngb-carousel>
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-1">
+        
+                            </div>
+                            <div class="col-4 features-one">
+                                
+                            </div>
+                            <div class="col-2">
+        
+                            </div>
+                            <div class="col-4 features-two">
+                               
+                            </div>
+                            <div class="col-1">
+        
+                            </div>
+                        </div>            
+                    </ng-template>
+        
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-4">
+        
+                            </div>
+                            <div class="col-4 features-three">
+                                
+                            </div>
+                            <div class="col-4">
+        
+                            </div>
+                        </div>
+        
+                    
+                    </ng-template>
+                   
+                  </ngb-carousel>
+            </div>
+            <div class="row">
+                    <div class="written-content">
+                        <h1>More features</h1>
+                        <p>
+                         The features include speed check, statistics about your performance, chat, mailbox and many more. This doesn’t end here, we are core part of Factory Fresh client team to enhance and provide best user experience continuously.    
+                        </p>
+                     </div>
+                
+            </div>
+          
+        </div> 
+        <div class="third-section">
+            <div class="carousal-section">
+                <ngb-carousel>
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-1">
+        
+                            </div>
+                            <div class="col-4 process-one">
+                                
+                            </div>
+                            <div class="col-2">
+        
+                            </div>
+                            <div class="col-4 process-two">
+                               
+                            </div>
+                            <div class="col-1">
+        
+                            </div>
+                        </div>            
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-1">
+        
+                            </div>
+                            <div class="col-4 process-three">
+                                
+                            </div>
+                            <div class="col-2">
+        
+                            </div>
+                            <div class="col-4 process-four">
+                               
+                            </div>
+                            <div class="col-1">
+        
+                            </div>
+                        </div>            
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="row">
+                            <div class="col-4">
+        
+                            </div>
+                            <div class="col-4 process-five">
+                                
+                            </div>
+                            <div class="col-4">
+        
+                            </div>
+                        </div>
+        
+                    
+                    </ng-template>
+                   
+                  </ngb-carousel>
+            </div>
+            <!-- <div class="project-pictures">
+                <img src="../../assets/FactoryFresh31.png" style="width: 15%;margin-right: 5%;">
+                <img src="../../assets/FactoryFresh32.png" style="width: 15%;margin-right: 5%;">
+                <img src="../../assets/FactoryFresh33.png" style="width: 15%;margin-right: 5%;">
+                <img src="../../assets/FactoryFresh34.png" style="width: 15%;margin-right: 5%;">
+                <img src="../../assets/FactoryFresh35.png" style="width: 15%;margin-right: 5%;">
+            </div> -->
+            <div class="written-content">
+               <h1>Process</h1>
+               <p>
+                To start with the project, we followed definite process including information gathering, user research, business analysis, and competitive analysis. After that we started crearting information architecture, data flows, user flows and basic wireframing. That’s how we gave the shape to the project into live application.
+               </p>
+            </div>
+           </div> 
+    </div>
+    <div class="row" style="text-align: center;">
+        <div class="col-6">
+            <a  href="factoryFresh">&lt;- previous project</a>
+        </div>
+        <div class="col-6">
+            <a href="ciniChop">next project -> </a>
+        </div>
+      
+    </div>
+    <app-footer></app-footer>
+</div>
+
+</div>

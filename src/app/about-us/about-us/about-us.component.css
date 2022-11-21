@@ -1,0 +1,107 @@
+
+.first-grid{
+    padding-bottom: 10% !important;
+}
+.facebook-button{
+    background:url('../../../assets/facebook.svg');       
+    border: none;
+    background-repeat: no-repeat;
+      background-size: 75%;
+
+    height: 100%;
+    width: 100%;
+}
+.instagram-button{
+    background:url('../../../assets/instagram.svg');      
+    border: none;
+    background-repeat: no-repeat;
+      background-size: 75%;
+
+    height: 100%;
+    width: 100%;
+}
+.twitter-button{
+    background:url('../../../assets/twitter.svg');     
+    border: none;
+    background-repeat: no-repeat;
+      background-size: 75%;
+
+    height: 100%;
+    width: 100%;
+
+}
+.linkedIn-button{
+    background:url('../../../assets/LinkedIn.svg');    
+    border: none;
+    background-repeat: no-repeat;
+      background-size: 75%;
+
+    height: 100%;
+    width: 100%;
+}
+.triangle-up{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: 65%;
+    text-align: center;
+}
+.fourth-content{
+    background: #EBECF5;
+    height: 10vh;
+    text-align: center;
+}
+
+.triangle-row{
+    height: 30vh;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.content {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+.content h1{
+    margin-bottom: 5vh;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.content p{
+    color: #666666;
+    font-size: 1.2rem;
+}
+.third-section{
+}
+.highlight-image{
+    height: 30vh;
+    background-image: url("../../../assets/triangle.png");
+    background-repeat: no-repeat;  
+    
+}
+.highlight{
+    margin-top: 42%;
+    margin-left: 35%;
+  
+}
+
+.about-us{
+    margin-top: 10vh;
+    text-align: center;
+}
+.projects-section{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.content-mobile h1{
+    font-size: 1.2 rem;
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+
+}

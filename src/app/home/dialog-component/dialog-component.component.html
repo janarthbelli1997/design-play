@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row" style="height: 10vh;
+    align-items: center;"> 
+        <div class="col-9" >
+            <h1 style="color: #6C63FF;margin-left: 40%;margin-top: 1vh;">{{title_main}}</h1>
+        </div>
+        <div class="col-3">
+        <button mat-button (click)="close()"><mat-icon style="color: #6C63FF;">close</mat-icon></button>
+    </div>
+        
+       
+    </div>
+    
+    <div class="first-section" *ngFor="let display of content_main">
+        <img src='{{display.imageSrc}}'>
+        <h3 style="color: #FFFFFFCC;">{{display.title}}</h3>
+        <p style ="color: #FFFFFF">{{display.content}}</p>
+    </div>
+   
+</div>

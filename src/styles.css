@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";  
+
+html,body {
+    height: 100%;
+}
+/* body .row{
+width: 100%;
+} */
+
+body{
+    margin: 0;
+    font-family: "Poppins"; 
+}
+h1{
+    font-size: rem;
+}
+p{
+    font-size:2 rem ;
+}
+@font-face {
+    font-family: Poppins;
+    src: local("Poppins"), url(src/assets/Fonts/Poppins/Poppins-Regular.ttf) format("opentype");
+}
+
+mat-bottom-sheet-container {   
+    min-width: 85vw !important;
+    margin-bottom: 7vh;
+    background: black !important;
+    max-height: 100vh;
+    overflow: hidden;
+    min-height: 85vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    color: whitesmoke;
+}

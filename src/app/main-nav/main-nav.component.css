@@ -1,0 +1,43 @@
+.sidenav-container {
+  height: 100%;
+  
+}
+
+.sidenav {
+  width: 80%;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: black;
+  color: whitesmoke
+  ;
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+.header-menu-button{
+  color: whitesmoke;
+}
+
+@media (min-width: 740px) {
+  .sidenav {
+    display: none;
+  }
+}
+
+.spacer-mobile {
+  width: 30vw;
+}
+mat-sidenav-container{
+  background-color: #ffffff;
+overflow-x: hidden;
+}

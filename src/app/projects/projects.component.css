@@ -1,0 +1,68 @@
+.tile-image{
+    background-image: url("../../assets/projectBGR.png");
+    background-size: 100%;    
+}
+.second-image{
+    background-image: url("../../assets/projectBBL.png");
+    background-size: 100%;    
+
+}
+
+.grid-text{
+   
+}
+
+a {
+    color: black;
+}
+
+.second-section-web
+    h1{
+        color: #BFCBD8;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 12vh;
+        margin-bottom: 8vh;
+      
+}
+
+/* code-for-web */
+.projects-content-web{
+    align-items: center;
+    margin-bottom: 8vh;
+    margin-left: 0px;
+}
+.projects-content-web .col-7{
+    margin: 0px;
+    padding: 0px;
+}
+
+.projects-content-web  h2{
+ font-size: 2.5rem;
+ font-weight: bold;
+ margin-bottom: 5vh;
+}
+
+.row{
+width: 100%;
+}
+
+
+
+.content-mobile img {
+    width: 100%;
+}
+.second-section-mobile {
+    margin-bottom: 5vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.second-section-mobile h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5vh;
+}
+.second-section-mobile p{
+    margin-top: 2vh;
+}
